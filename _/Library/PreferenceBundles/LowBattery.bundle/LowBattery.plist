@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>General</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.ziph0n.lowbattery</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Type of alert</string>
+			<key>footerText</key>
+			<string>You can choose your type of alert here. If you want a popup when your battery is low, choose the 'Popup' option. If you want a banner when your battery is low, choose the 'Banner' option. If you don't want an alert when your battery is low, choose the 'none' option.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSegmentCell</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>defaults</key>
+			<string>com.ziph0n.lowbattery</string>
+			<key>key</key>
+			<string>alertType</string>
+			<key>validValues</key>
+				<array>
+					<integer>0</integer>
+					<integer>1</integer>
+					<integer>2</integer>
+				</array>
+			<key>validTitles</key>
+				<array>
+					<string>Popup</string>
+					<string>Banner</string>
+					<string>None</string>
+				</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Popup Options</string>
+			<key>footerText</key>
+			<string>You can entirely customize the look of your popups here. Choose your different strings, enable or disable the vibration or add a sound.</string>
+		</dict>
+		<dict>
+				<key>cell</key>
+				<string>PSLinkCell</string>
+				<key>label</key>
+				<string>First Popup Options</string>
+				<key>detail</key>
+				<string>FirstPopup</string>
+		</dict>
+		<dict>
+				<key>cell</key>
+				<string>PSLinkCell</string>
+				<key>label</key>
+				<string>Second Popup Options</string>
+				<key>detail</key>
+				<string>SecondPopup</string>
+		</dict>
+		<dict>
+				<key>cell</key>
+				<string>PSLinkCell</string>
+				<key>label</key>
+				<string>Third Popup Options</string>
+				<key>detail</key>
+				<string>ThirdPopup</string>
+		</dict>
+		<dict>
+				<key>cell</key>
+				<string>PSLinkCell</string>
+				<key>label</key>
+				<string>Fourth Popup Options</string>
+				<key>detail</key>
+				<string>FourthPopup</string>
+		</dict>
+		<dict>
+				<key>cell</key>
+				<string>PSLinkCell</string>
+				<key>label</key>
+				<string>Fifth Popup Options</string>
+				<key>detail</key>
+				<string>FifthPopup</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Banner options</string>
+			<key>footerText</key>
+			<string>You can entirely customize the look of your banners here. Choose your different strings, enable or disable the vibration or add a sound.</string>
+		</dict>
+		<dict>
+				<key>cell</key>
+				<string>PSLinkCell</string>
+				<key>label</key>
+				<string>First Banner Options</string>
+				<key>detail</key>
+				<string>FirstBanner</string>
+		</dict>
+		<dict>
+				<key>cell</key>
+				<string>PSLinkCell</string>
+				<key>label</key>
+				<string>Second Banner Options</string>
+				<key>detail</key>
+				<string>SecondBanner</string>
+		</dict>
+		<dict>
+				<key>cell</key>
+				<string>PSLinkCell</string>
+				<key>label</key>
+				<string>Third Banner Options</string>
+				<key>detail</key>
+				<string>ThirdBanner</string>
+		</dict>
+		<dict>
+				<key>cell</key>
+				<string>PSLinkCell</string>
+				<key>label</key>
+				<string>Fourth Banner Options</string>
+				<key>detail</key>
+				<string>FourthBanner</string>
+		</dict>
+		<dict>
+				<key>cell</key>
+				<string>PSLinkCell</string>
+				<key>label</key>
+				<string>Fifth Banner Options</string>
+				<key>detail</key>
+				<string>FifthBanner</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>About</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>sourceOnGithub</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>github.png</string>
+			<key>label</key>
+			<string>Source Code in GitHub</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>twitter</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>twitter.png</string>
+			<key>label</key>
+			<string>Follow me on Twitter (@Ziph0n)</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>sendEmail</string>
+			<key>icon</key>
+			<string>mail.png</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Email Support</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>reddit</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>reddit.png</string>
+			<key>label</key>
+			<string>Find me on Reddit (/u/Ziph0n)</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerAlignment</key>
+			<integer>1</integer>
+			<key>footerText</key>
+			<string>© 2015 Ziph0n (@Ziph0n)</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>BatteryFlow</string>
+</dict>
+</plist>

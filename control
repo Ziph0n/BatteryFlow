@@ -1,0 +1,9 @@
+Package: com.ziph0n.lowbattery
+Name: BatteryFlow
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Let's entirely customize your 'Low Power' alerts
+Maintainer: Ziph0n
+Author: Ziph0n
+Section: Tweaks

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>items</key>
+  <array>
+    <dict>
+      <key>cell</key>
+      <string>PSGroupCell</string>
+      <key>label</key>
+      <string>Alert at X%</string>
+    </dict>
+    <dict>
+      <key>cell</key>
+      <string>PSEditTextCell</string>
+      <key>defaults</key>
+      <string>com.ziph0n.lowbattery</string>
+      <key>keyboard</key>
+      <string>phone</string>
+      <key>key</key>
+      <string>secondBanner</string>
+    </dict>
+    <dict>
+      <key>cell</key>
+      <string>PSGroupCell</string>
+      <key>label</key>
+      <string>Banner Options</string>
+    </dict>
+    <dict>
+      <key>cell</key>
+      <string>PSEditTextCell</string>
+      <key>defaults</key>
+      <string>com.ziph0n.lowbattery</string>
+      <key>key</key>
+      <string>secondBannerTitle</string>
+      <key>placeholder</key>
+      <string>Title of the banner</string>
+      <key>autoCaps</key>
+      <string>sentences</string>
+    </dict>
+    <dict>
+      <key>cell</key>
+      <string>PSEditTextCell</string>
+      <key>defaults</key>
+      <string>com.ziph0n.lowbattery</string>
+      <key>key</key>
+      <string>secondBannerMessage</string>
+      <key>placeholder</key>
+      <string>Message of the banner</string>
+      <key>autoCaps</key>
+      <string>sentences</string>
+    </dict>
+    <dict>
+      <key>cell</key>
+      <string>PSButtonCell</string>
+      <key>label</key>
+      <string>Save</string>
+      <key>action</key>
+      <string>save</string>
+    </dict>
+    <dict>
+      <key>cell</key>
+      <string>PSGroupCell</string>
+      <key>label</key>
+      <string>Other options</string>
+    </dict>
+    <dict>
+      <key>cell</key>
+      <string>PSSwitchCell</string>
+      <key>default</key>
+      <false/>
+      <key>defaults</key>
+      <string>com.ziph0n.lowbattery</string>
+      <key>key</key>
+      <string>secondBannerSound</string>
+      <key>label</key>
+      <string>Sound</string>
+    </dict>
+    <dict>
+      <key>cell</key>
+      <string>PSLinkListCell</string>
+      <key>default</key>
+      <string>None</string>
+      <key>defaults</key>
+      <string>com.ziph0n.lowbattery</string>
+      <key>key</key>
+      <string>secondBannerCustomSound</string>
+      <key>label</key>
+      <string>Sound File</string>
+      <key>detail</key>
+      <string>PSListItemsController</string>
+      <key>valuesDataSource</key>
+      <string>getValues:</string>
+      <key>titlesDataSource</key>
+      <string>getValues:</string>
+      <key>set</key>
+      <string>previewAndSet:forSpecifier:</string>
+    </dict>
+    <dict>
+      <key>cell</key>
+      <string>PSGroupCell</string>
+    </dict>
+    <dict>
+      <key>cell</key>
+      <string>PSSwitchCell</string>
+      <key>default</key>
+      <false/>
+      <key>defaults</key>
+      <string>com.ziph0n.lowbattery</string>
+      <key>key</key>
+      <string>secondBannerVibration</string>
+      <key>label</key>
+      <string>Vibration</string>
+    </dict>
+  </array>
+  <key>title</key>
+  <string>Second Banner Options</string>
+</dict>
+</plist>
